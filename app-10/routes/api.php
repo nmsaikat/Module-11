@@ -18,6 +18,6 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-route::get('/hello', function(){
+route::put('/hello', function(){
     return 'Hello, Laravel API!';
 });
